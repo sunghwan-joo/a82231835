@@ -11,3 +11,5 @@ spec:
   type: service
   lifecycle: production
   owner: sunghwan-joo
+  techdocs:
+    storage: github  # GitHub에 문서 저장
