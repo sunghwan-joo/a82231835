@@ -10,3 +10,5 @@ spec:
   type: service
   lifecycle: production
   owner: sunghwan-joo
+  providesApis:
+      - default/hello-world  # API 엔터티와 연결
