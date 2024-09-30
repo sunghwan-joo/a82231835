@@ -1,15 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: a82231835
+  name: a82231835 # 이 이름이 URL의 컴포넌트 이름과 일치해야 합니다.
   description: a82231835
   owner: sunghwan-joo
-  annotations:
-    github.com/project-slug: 'sunghwan-joo/a82231835'
-    backstage.io/techdocs-ref: 'github:https://github.com/sunghwan-joo/a82231835'
 spec:
   type: service
   lifecycle: production
   owner: sunghwan-joo
   techdocs:
-    storage: github  # GitHub에 문서 저장
+    url: './backstage/docs' # TechDocs가 저장된 경로를 올바르게 설정했는지 확인
