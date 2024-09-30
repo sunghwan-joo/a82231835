@@ -6,5 +6,6 @@ nav:
   - Lists Example: examples/lists.md
   - Mermaid Example: examples/mermaid.md
   - Plantuml Example: examples/plantuml.md
+docs_dir: backstage/docs
 plugins:
   - techdocs-core
