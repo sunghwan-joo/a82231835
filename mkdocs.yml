@@ -9,3 +9,5 @@ nav:
 docs_dir: backstage/docs
 plugins:
   - techdocs-core
+markdown_extensions:
+  - admonition  # 추가할 Markdown 확장
