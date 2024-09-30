@@ -4,8 +4,9 @@ metadata:
   name: hello-world
   description: A simple API that returns a greeting
 spec:
-  type: openapi  # API의 타입 (openapi, grpc 등)
+  type: openapi  # API 타입 (openapi, grpc, graphql 등)
   lifecycle: production
+  owner: sunghwan-joo  # API의 소유자 팀 또는 개인
   definition: |
     openapi: 3.0.0
     info:
