@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1beta1
+kind: API
+metadata:
+  name: used-api
+  description: API that utilizes the Hello World API.
+  tags:
+    - example
+    - used-api
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team@example.com
+  definition:
+    # OpenAPI 정의를 여기 추가
+    openapi: "3.0.0"
+    info:
+      title: Used API
+      version: 1.0.0
+      description: This API interacts with the Hello World API.
+    paths:
+      /consume-greet:
+        get:
+          summary: Consumes the Hello World API
+          operationId: consumeHelloWorld
+          responses:
+            '200':
+              description: Successful response from the Hello World API
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties:
+                      greeting:
+                        type: string
+                        example: "Hello, World!"
+                      source:
+                        type: string
+                        example: "Hello World API"
