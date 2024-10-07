@@ -10,8 +10,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: team@example.com
-  definition:
-    # OpenAPI 정의를 여기 추가
+  definition: |
     openapi: "3.0.0"
     info:
       title: Used API
