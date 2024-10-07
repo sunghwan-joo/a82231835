@@ -11,7 +11,9 @@ spec:
   lifecycle: production
   owner: sunghwan-joo
   providesApis:
-      - default/hello-world  # API 엔터티와 연결
+    - used-api
+  consumesApis:
+    - hello-world-api
   dependsOn:
       - resource:default/database  # 의존하고 있는 리소스 정의
       - component:default/api-service  # 의존하고 있는 컴포넌트 정의
