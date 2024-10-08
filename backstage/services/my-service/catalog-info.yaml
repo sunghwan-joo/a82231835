@@ -4,8 +4,6 @@ metadata:
   name: a82231835
   description: "Main service for handling user requests"
   owner: platform_CoE_Team
-  annotations:
-    backstage.io/techdocs-ref: dir:./docs  # TechDocs와 연동
 spec:
   type: service
   lifecycle: production
