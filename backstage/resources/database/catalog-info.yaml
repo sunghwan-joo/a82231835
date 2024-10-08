@@ -4,11 +4,16 @@ metadata:
   name: a82231835 # 이 이름이 URL의 컴포넌트 이름과 일치해야 합니다.
   description: "Database for storing user information and application data"
   owner: platform_CoE_Team
+  tags:
+      - database
+      - postgres  # 데이터베이스 유형
+      - production
   annotations:
     backstage.io/techdocs-ref: dir:../docs  # TechDocs 문서 경로
 spec:
   type: database       # 리소스 유형
   lifecycle: production  # 리소스의 라이프사이클 상태
+  system: project-system  # 해당 시스템의 이름
   owner: platform_CoE_Team   # 리소스 소유자
   implementsApis:
     - hello-world-api  # 이 데이터베이스가 구현하는 API 목록
