@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: a82231835 # 이 이름이 URL의 컴포넌트 이름과 일치해야 합니다.
+  name: project-database # 이 이름이 URL의 컴포넌트 이름과 일치해야 합니다.
   description: "Database for storing user information and application data"
   owner: platform_CoE_Team
   tags:
