@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  description: "Main service for handling user requests"
+  owner: team-owner
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs  # TechDocs와 연동
+spec:
+  type: service
+  lifecycle: production
+  owner: sunghwan-joo
+  providesApis:
+    - hello-world-api  # 서비스가 제공하는 API
+  consumesApis:
+    - used-api         # 서비스가 사용하는 API

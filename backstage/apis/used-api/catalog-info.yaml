@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: used-api
+  description: "API that is consumed by the team"
+  owner: team-owner
+spec:
+  type: openapi
+  lifecycle: production
+  owner: sunghwan-joo
+  definition: ./used-api.yaml  # API 스펙 파일 경로

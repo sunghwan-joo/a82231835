@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hello-world-api
+  description: "Hello World API for testing purposes"
+  owner: sunghwan-joo
+  tags:
+    - public
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-owner
+  definition: ./hello-world.yaml  # API 스펙 파일 경로
