@@ -3,13 +3,13 @@ kind: Component
 metadata:
   name: a82231835 # 이 이름이 URL의 컴포넌트 이름과 일치해야 합니다.
   description: a82231835 프로젝트의 Backstage 카탈로그
-  owner: sunghwan-joo
+  owner: platform_CoE_Team
   annotations:
       backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: production
-  owner: sunghwan-joo
+  owner: platform_CoE_Team
   providesApis:
     - used-api
   consumesApis:

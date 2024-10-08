@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-service
+  name: a82231835
   description: "Main service for handling user requests"
-  owner: team-owner
+  owner: platform_CoE_Team
   annotations:
     backstage.io/techdocs-ref: dir:./docs  # TechDocs와 연동
 spec:
   type: service
   lifecycle: production
-  owner: sunghwan-joo
+  owner: platform_CoE_Team
   providesApis:
     - hello-world-api  # 서비스가 제공하는 API
   consumesApis:
