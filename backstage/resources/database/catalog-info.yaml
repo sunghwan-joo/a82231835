@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: my-database
+  description: "Database for storing user information and application data"
+  owner: team-owner
+  annotations:
+    backstage.io/techdocs-ref: dir:../docs  # TechDocs 문서 경로
+spec:
+  type: database       # 리소스 유형
+  lifecycle: production  # 리소스의 라이프사이클 상태
+  owner: sunghwan-joo   # 리소스 소유자
+  implementsApis:
+    - hello-world-api  # 이 데이터베이스가 구현하는 API 목록
+  dependsOn:
+    - component:default/my-service  # 이 데이터베이스에 의존하는 서비스 정의
