@@ -9,7 +9,7 @@ metadata:
       - postgres  # 데이터베이스 유형
       - production
   annotations:
-    backstage.io/techdocs-ref: dir:../docs  # TechDocs 문서 경로
+    backstage.io/techdocs-ref: dir:.  # TechDocs 문서 경로
 spec:
   type: database       # 리소스 유형
   lifecycle: production  # 리소스의 라이프사이클 상태
