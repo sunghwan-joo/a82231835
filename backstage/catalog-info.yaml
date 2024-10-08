@@ -18,4 +18,4 @@ spec:
      - api:default/hello-world-api  # 의존하는 API 정의
      - api:default/used-api          # 의존하는 API 정의
      - component:default/my-service   # 의존하는 서비스 정의
-     - resource:default/resources/database
+     - resource:default/database
