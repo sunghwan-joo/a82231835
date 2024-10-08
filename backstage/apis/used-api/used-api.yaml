@@ -9,7 +9,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: sunghwan-joo  # API의 소유자 팀 또는 개인
+  owner: platform_CoE_Team  # API의 소유자 팀 또는 개인
   definition: |
     openapi: "3.0.0"
     info:
